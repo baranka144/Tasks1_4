@@ -11,7 +11,7 @@ console.log('Task 2');
 console.log('Task 3');
 let matrixA = [
     [1, 2],
-    [3, 4],
+    [3, 4]
 ];
 let matrixB = [
     [5, 6],

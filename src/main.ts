@@ -12,13 +12,13 @@ powerSeries(0.5);
 console.log('Task 3');
 let matrixA = [
     [1,2],
-    [3,4],
+    [3,4]
 ];
 let matrixB = [
     [5,6],
     [7,8]
 ];
-console.log(matrixA.length)
+console.log(matrixA.length);
 const result = matrixMult(matrixA, matrixB);
 if (typeof result === 'string') {
   console.log(result);

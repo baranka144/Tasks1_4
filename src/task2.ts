@@ -1,10 +1,10 @@
 export function powerSeries(x: number): void {
     if (-1 > x || x > 1) {
-        console.log("X must be between -1 and 1")
+        console.log("X must be between -1 and 1");
         return;
     }
     let current = x;
-    let prec = 0.01
+    let prec = 0.01;
     let sum = 0;
     let pow = x;
     let sign = -1;
